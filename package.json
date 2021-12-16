@@ -1,0 +1,20 @@
+{
+  "name": "talkwith-workspaces",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "scripts": {
+    "test": "lerna run test --scope={@talkwith/server,@talkwith/web}",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff",
+    "clean": "lerna clean && rm -rf ./node_modules"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "towelong <towelong@qq.com>",
+  "license": "MIT"
+}

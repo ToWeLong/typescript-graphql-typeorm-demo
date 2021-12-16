@@ -1,0 +1,13 @@
+{
+  "name": "@talkwith/web",
+  "private":"true",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo testing web..."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
